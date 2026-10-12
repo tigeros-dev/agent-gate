@@ -163,6 +163,18 @@ Be honest about what this is:
 - A hook only sees the tools that pass through the hook. Anything the agent
   runs outside of Claude Code tool calls is invisible to the gate.
 
+## Status and support
+
+agent-gate is a personal side project, shared as a contribution, not as a
+product. It is provided "as is", without warranty of any kind (see sections 7
+and 8 of the license). Issues and pull requests are welcome and handled on a
+best-effort basis; there is no support commitment.
+
+This project is not affiliated with or endorsed by my employer. Claude Code is
+a product of Anthropic; Open Policy Agent is a CNCF project. Both are used here
+as documented, unmodified tools.
+
 ## License
 
-Apache License 2.0, see [LICENSE](LICENSE).
+Copyright 2026 Dominik Dietrich. Licensed under the Apache License, Version 2.0;
+see [LICENSE](LICENSE) and [NOTICE](NOTICE).

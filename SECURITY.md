@@ -15,9 +15,9 @@ Please include:
 - the PreToolUse document or command that shows the problem,
 - what you expected and what happened.
 
-This is a small project maintained in spare time; reports are answered as soon
-as possible, and reporters are credited unless they ask not to be.
+This is a small project maintained in spare time; reports are handled on a
+best-effort basis, and reporters are credited unless they ask not to be.
 
 ## Supported versions
 
-Only the latest release receives fixes.
+There are no releases. Fixes land on the `main` branch only.
