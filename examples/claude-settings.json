@@ -1,0 +1,22 @@
+{
+  "env": {
+    "AGENT_GATE_MODE": "observe",
+    "AGENT_GATE_ROLE": "default",
+    "AGENT_GATE_POLICY_DIR": "/opt/agent-gate/policy",
+    "AGENT_GATE_LOG": "/opt/agent-gate/agent-gate.log.jsonl"
+  },
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Bash|Write|Edit|MultiEdit|NotebookEdit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "PYTHONPATH=/opt/agent-gate python3 -m agent_gate",
+            "timeout": 30
+          }
+        ]
+      }
+    ]
+  }
+}

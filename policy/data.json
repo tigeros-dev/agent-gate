@@ -1,0 +1,7 @@
+{
+  "agent_gate_config": {
+    "disabled": [],
+    "workdirs": [],
+    "allowed_hosts": []
+  }
+}
